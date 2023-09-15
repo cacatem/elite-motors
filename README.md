@@ -1,7 +1,7 @@
 # elite-motors
 My first Multi-page Car Sales website.<br>
 Made using HTML, CSS and Javascript.<br>
-100% Responsive with mobile-menu.
+100% Responsive with mobile-menu.<br>
 Complete navigation.
 
 # Home
