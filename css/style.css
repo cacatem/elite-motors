@@ -155,6 +155,9 @@ section.veiculos-destaque .container {
     text-transform: uppercase;
     font-style: italic;
 }
+section.veiculos-destaque .short-destaque {
+    display: none;
+}
 .vitrine {
     float: left;
     width: 33.3%;
@@ -688,6 +691,12 @@ section.sobre .descricao-autor p {
         -ms-transform: translateX(-50%);
         display: inline-block;
     }
+    section.veiculos-destaque .short-destaque {
+        display: inline-block;
+    }
+    section.veiculos-destaque .full-destaque {
+        display: none;
+    }
     .vitrine-venda {
         width: 90%;
     }
@@ -769,6 +778,43 @@ section.sobre .descricao-autor p {
     }
     footer p {
         float: none;
+    }
+}
+@media screen and (max-width: 540px) {
+    .text-banner {
+        padding: 100px 0px 100px 60px;
+    }
+    .text-banner-single {
+        width: 250px;
+        color: white;
+        margin-top: 15px;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-style: italic;
+        height: 80px;
+        background-image: url('../img/box-text.png');
+        background-size: 100% 100%;
+    }
+    .text-banner .text-banner-single:nth-of-type(2) {
+        position: relative;
+        left: -11px;
+        width: 210px;
+    }
+    .text-banner .text-banner-single:nth-of-type(3) {
+        position: relative;
+        left: -20px;
+        width: 170px;
+    }
+    .text-banner .text-banner-single:nth-of-type(4) {
+        position: relative;
+        left: -30px;
+        width: 340px;
+        font-size: 23px;
+        padding: 5px 15px;
+        height: 50px;
+        color: black;
+        background-image: url('../img/box-white-text.png');
     }
 }
 /***/
