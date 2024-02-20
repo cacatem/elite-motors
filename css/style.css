@@ -405,16 +405,16 @@ section.venda {
 }
 .barra-preco-fill {
     position: absolute;
-    left: 4px;
+    left: 5px;
     top: 4px;
-    width: 30%;
+    width: 0px;
     height: 10px;
     border-radius: 20px;
     background: linear-gradient(to bottom, rgb(255, 88, 88), rgb(105, 16, 16));
 }
 .pointer-barra {
     position: absolute;
-    left: calc(30% - 13px);
+    left: 0px;
     top: -3px;
     width: 26px;
     height: 26px;
@@ -576,16 +576,18 @@ section.venda-single {
     overflow: hidden;
     width: 100%;
 }
-.nav-galeria-wraper {
-    width: 200%;
-}
 .mini-img-wraper {
     float: left;
     padding: 6px;
-    width: calc(33.3% * (100 / 200));
 }
 .mini-img-wraper:hover {
-    background-color: rgba(235, 45, 45, 1);
+    background-color: rgb(210, 210, 210);
+}
+.mini-img-sel {
+    background-color: rgb(235, 45, 45);
+}
+.mini-img-sel:hover {
+    background-color: rgb(235, 45, 45);
 }
 .mini-img {
     background-position: center;
